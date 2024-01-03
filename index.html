@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Document metadata -->
+  <meta charset="utf-8">
+  <title>Simon</title>
+
+  <!-- External stylesheet and Google Fonts link -->
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Game title and initial message -->
+  <h1 id="level-title">Press A Key to Start</h1>
+
+  <!-- Game container -->
+  <div class="container">
+    <!-- Game buttons row 1 -->
+    <div class="row"> <!-- Container for green and red buttons -->
+
+      <div type="button" id="green" class="btn green">
+        <!-- Green button -->
+      </div>
+
+      <div type="button" id="red" class="btn red">
+        <!-- Red button -->
+      </div>
+    </div>
+
+    <!-- Game buttons row 2 -->
+    <div class="row"> <!-- Container for yellow and blue buttons -->
+
+      <div type="button" id="yellow" class="btn yellow">
+        <!-- Yellow button -->
+      </div>
+      <div type="button" id="blue" class="btn blue">
+        <!-- Blue button -->
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- jQuery and game script inclusion -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>
+
+</body>
+
+</html>

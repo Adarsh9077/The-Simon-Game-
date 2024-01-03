@@ -1,0 +1,59 @@
+/* Body styling */
+body {
+  text-align: center;
+  background-color: #011F3F; /* Dark blue background color */
+}
+
+/* Game level title styling */
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%; /* 5% margin on all sides */
+  color: #FEF2BF; /* Light yellow text color */
+}
+
+/* Game container styling */
+.container {
+  display: block;
+  width: 50%; /* Set container width to 50% of the parent element */
+  margin: auto; /* Center the container horizontally */
+}
+
+/* Game buttons styling */
+.btn {
+  margin: 25px; /* 25px margin for all buttons */
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black; /* 10px black border for all buttons */
+  border-radius: 20%; /* 20% border radius for rounded corners */
+}
+
+/* Game over screen styling */
+.game-over {
+  background-color: red; /* Red background color for game over screen */
+  opacity: 0.8; /* 80% opacity for a semi-transparent effect */
+}
+
+/* Individual button colors */
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+/* Styling for pressed buttons */
+.pressed {
+  box-shadow: 0 0 20px white; /* White box shadow when a button is pressed */
+  background-color: grey; /* Grey background color for pressed buttons */
+}
